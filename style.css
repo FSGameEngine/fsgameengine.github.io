@@ -34,6 +34,7 @@ body {
   height: 25vh;
   text-align: center;
   color: white;
+user-select: none;
 }
 .topnav {
   /*background-color: #333;*/
@@ -45,6 +46,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 10;
+  user-select: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -90,6 +92,7 @@ body {
   line-height: 5vh;
   display: inline-block;
   border: 0.15em solid rgba(0,0,0,0);
+  user-select: none;
   }
 
 
