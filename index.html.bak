@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<!--https://store.steampowered.com/app/3549850-->
+
+<meta http-equiv="refresh" content="0; url=https://store.steampowered.com/">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <title>FS Engine</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+</head>
+<body>
+ <script src="script.js"></script>
+
+<div class="topnav">
+  <a href="./wiki.html"><i class="fa fa-fw fa-book"></i></a>
+  <a href="#about"><i class="fa fa-fw fa-info"></i></a>
+  <a href="#home" class="split"><i class="fa fa-fw fa-home"></i></a>
+</div> 
+
+<div class="bg-img" id="home">
+
+  <div class="bg-text">
+    
+    <h1 style="user-select: none;">Falling Sand Engine</h1>
+    
+    <div style="white-space: nowrap;">
+        <a href="https://example.com/">
+            <div class="blur-button" style="color: white;"><i class="fa-brands fa-steam fa-lg"></i> Steam</div>
+        </a>
+    </div>
+   
+    
+  </div>
+  <div style="position:absolute; bottom:0px;color:white;left:50vw;transform:translate(-50%,-50%);" onclick="document.getElementById('mrk').scrollIntoView();"><i class="fa-solid fa-angle-down fa-bounce fa-xl"></i></div>
+</div>
+
+<div id="mrk"></div>
+
+<p id="pad" style="font-size:10vh;">  </p>
+
+
+
+<div class="content">
+   <div class="block" id="about">
+    <h2>Block A</h2>
+    <p>Some info about A</p>
+    </div>
+  <div class="block">
+    <h2>Block B</h2>
+    <p>Some info about B</p>
+  </div>
+  <div class="block">
+    <h2>Block C</h2>
+    <p>Some info about C</p>
+  </div>
+  <div class="block">
+    <h2>Block D</h2>
+    <p>Some info about D</p>
+  </div>
+</div>
+</body>
+</html>
